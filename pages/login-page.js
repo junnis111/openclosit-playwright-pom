@@ -23,7 +23,7 @@ export class LoginPage {
 
     async getToastMessage() {
         // Invalid Email or password.
-        return this.page.locator(loginLocators.toastMessage).textContent()
+        return await this.page.locator(loginLocators.toastMessage).textContent()
     }
 
     async accountCreationNavigation() {
