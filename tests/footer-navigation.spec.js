@@ -40,7 +40,7 @@ test.describe("Validate NavBar Navigations", () => {
         await expect(page).toHaveURL("https://new-openclosit-a6b290e28239.herokuapp.com/collaborators")
     })
 
-    test.only("Verify Footer How it Works navigation", async ({ page }) => {
+    test("Verify Footer How it Works navigation", async ({ page }) => {
         await footerNavigationPageObj.clickOnHowItWorks()
         await expect(page).toHaveURL("https://new-openclosit-a6b290e28239.herokuapp.com/how_it_works")
     })
