@@ -1,8 +1,8 @@
 import { test, expect } from '@playwright/test'
-import { LoginPage } from '../pages/loginPage'
-import { BASEURL, USERNAME, PASSWORD } from '../utlis/envConfig'
-import { NavBarNavigation } from '../pages/navBarNavigationPage';
-import { FooterNavigation } from '../pages/footerNavigation';
+import { LoginPage } from '../pages/login-page'
+import { BASEURL, USERNAME, PASSWORD } from '../utlis/env-config'
+import { NavBarNavigation } from '../pages/navbar-navigation-page';
+import { FooterNavigation } from '../pages/footer-navigation';
 
 
 

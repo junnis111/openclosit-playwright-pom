@@ -1,4 +1,4 @@
-import { navBarNavigation } from "../Locators/navBarNavigationLocators";
+import { navBarNavigation } from "../Locators/navbar-navigation-locators";
 
 export class NavBarNavigation{
     constructor(page){
