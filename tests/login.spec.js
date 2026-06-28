@@ -22,7 +22,7 @@ test.describe("Login Module", () => {
     test("Login with invalid credentials", async ({ page }) => {
         await loginPageObj.validMemberLogin("junaidkhan@gmail.com", "password1234");
         const getToastMessage = await loginPageObj.getToastMessage()
-        await expect(getToastMessage).toBe("Invalid Email or password.")  
+        await expect(getToastMessage).toBe("Invalid Email or password.")
     })
 
     test("Empty Login Validation ", async ({ page }) => {
