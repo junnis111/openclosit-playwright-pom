@@ -59,7 +59,7 @@ test.describe("Validate NavBar Navigations", () => {
         await expect(page).toHaveURL("https://new-openclosit-a6b290e28239.herokuapp.com/outfits")
     })
 
-    test.only("Verify Cart page navigation", async ({ page }) => {
+    test("Verify Cart page navigation", async ({ page }) => {
         await navBarNavigationObj.clickOnCart()
         await expect(page).toHaveURL("https://new-openclosit-a6b290e28239.herokuapp.com/shop_cart")
     })
