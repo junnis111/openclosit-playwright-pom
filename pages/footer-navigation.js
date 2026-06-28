@@ -1,4 +1,4 @@
-import { footerNavigationLocators } from "../locators/footer-navigation-locators"
+import { footerNavigationLocators } from "../locators/footer-navigation-locators.js"
 
 export class FooterNavigation{
     constructor(page){

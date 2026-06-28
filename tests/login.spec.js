@@ -1,6 +1,6 @@
 import { test, expect } from '@playwright/test'
-import { LoginPage } from '../pages/login-page'
-import { BASEURL, USERNAME, PASSWORD } from '../utils/env-config'
+import { LoginPage } from '../pages/login-page.js'
+import { BASEURL, USERNAME, PASSWORD } from '../utils/env-config.js'
 
 
 

@@ -1,7 +1,7 @@
 import { test, expect } from '@playwright/test'
-import { LoginPage } from '../pages/login-page'
-import { BASEURL, USERNAME, PASSWORD } from '../utils/env-config'
-import { NavBarNavigation } from '../pages/navbar-navigation-page';
+import { LoginPage } from '../pages/login-page.js'
+import { BASEURL, USERNAME, PASSWORD } from '../utils/env-config.js'
+import { NavBarNavigation } from '../pages/navbar-navigation-page.js';
 
 
 
