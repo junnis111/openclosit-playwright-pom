@@ -19,7 +19,7 @@ test.describe("Login Module", () => {
         await expect(page).toHaveURL("https://new-openclosit-a6b290e28239.herokuapp.com")
     })
 
-    test.only("Login with invalid credentials", async ({ page }) => {
+    test("Login with invalid credentials", async ({ page }) => {
         await loginPageObj.validMemberLogin("junaidkhan@gmail.com", "password1234");
         const getToastMessage = await loginPageObj.getToastMessage()
         await expect(getToastMessage).toBe("Invalid Email or password.")  
