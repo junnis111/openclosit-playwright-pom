@@ -1,6 +1,6 @@
 import { test, expect } from '@playwright/test'
 import { LoginPage } from '../pages/login-page'
-import { BASEURL, USERNAME, PASSWORD } from '../utlis/env-config'
+import { BASEURL, USERNAME, PASSWORD } from '../utils/env-config'
 
 
 

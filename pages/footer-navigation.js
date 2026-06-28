@@ -1,4 +1,4 @@
-import { footerNavigationLocators } from "../Locators/footer-navigation-locators"
+import { footerNavigationLocators } from "../locators/footer-navigation-locators"
 
 export class FooterNavigation{
     constructor(page){
@@ -33,7 +33,7 @@ export class FooterNavigation{
         await this.page.locator(footerNavigationLocators.earningsCalculator).click()
     }
 
-    async clickOnfaqs(){
+    async clickOnFaqs(){
         await this.page.locator(footerNavigationLocators.faqs).click()
     }
 

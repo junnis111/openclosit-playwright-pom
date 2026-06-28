@@ -1,4 +1,4 @@
-import { loginLocators } from "../Locators/login-locators";
+import { loginLocators } from "../locators/login-locators";
 
 export class LoginPage {
     constructor(page) {

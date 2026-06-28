@@ -1,12 +1,12 @@
 import { test, expect } from '@playwright/test'
 import { LoginPage } from '../pages/login-page'
-import { BASEURL, USERNAME, PASSWORD } from '../utlis/env-config'
+import { BASEURL, USERNAME, PASSWORD } from '../utils/env-config'
 import { NavBarNavigation } from '../pages/navbar-navigation-page';
 import { FooterNavigation } from '../pages/footer-navigation';
 
 
 
-test.describe("Validate NavBar Navigations", () => {
+test.describe("Validate Footer Navigations", () => {
 
     let loginPageObj;
     let footerNavigationPageObj;
@@ -56,7 +56,7 @@ test.describe("Validate NavBar Navigations", () => {
     })
 
     test("Verify Footer FAQs navigation", async ({ page }) => {
-        await footerNavigationPageObj.clickOnfaqs()
+        await footerNavigationPageObj.clickOnFaqs()
         await expect(page).toHaveURL("https://new-openclosit-a6b290e28239.herokuapp.com/faq")
     })
 

@@ -1,11 +1,11 @@
 import { test, expect } from '@playwright/test'
-import { LoginPage } from '../pages/loginPage'
-import { BASEURL, USERNAME, PASSWORD } from '../utlis/envConfig'
-import { NavBarNavigation } from '../pages/navBarNavigationPage';
+import { LoginPage } from '../pages/login-page'
+import { BASEURL, USERNAME, PASSWORD } from '../utils/env-config'
+import { NavBarNavigation } from '../pages/navbar-navigation-page';
 
 
 
-test.describe("Validate NavBar Navigations", () => {
+test.describe("Validate Navbar Navigations", () => {
 
     let loginPageObj;
     let navBarNavigationObj;
