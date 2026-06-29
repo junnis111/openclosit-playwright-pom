@@ -1,4 +1,4 @@
-import { navBarNavigation } from "../jk/navbar-navigation-locators.js";
+import { navBarNavigation } from "../locators/navbar-navigation-locators.js";
 
 export class NavBarNavigation{
     constructor(page){
