@@ -1,0 +1,1 @@
+export const homePageProductsData = ["Retrofete Black Deep V Gown", "Retrofete Tosca Jumpsuit"]
